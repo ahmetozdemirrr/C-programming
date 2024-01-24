@@ -7,7 +7,7 @@ The codes I wrote here are some C programming examples that go from simple to di
 5. [Drawing-Graph-hw4](/Drawing-Graph-hw4) - Homework 4
 6. [Shape-Calculator-hw5](/Shape-Calculator-hw5) - Homework 5
 7. [Mini-Racing-Game-hw6](/Mini-Racing-Game-hw6) - Homework 6
-8. [Word-Game-hw7](/hw0Word-Game-hw7 - Homework 7
+8. [Word-Game-hw7](/Word-Game-hw7) - Homework 7
 9. [Collatz-Conjecture-hw8](/Collatz-Conjecture-hw8) - Homework 8
 10. [Bank-System-hw9](/Bank-System-hw9) - Homework 9
 11. [Hanoi-Tower-hw10](/Hanoi-Tower-hw10) - Homework 10
