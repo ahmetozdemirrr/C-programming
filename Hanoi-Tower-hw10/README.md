@@ -33,18 +33,3 @@ Your task is to implement a non-recursive solution for the Tower of Hanoi proble
     ```bash
     $ make run       # Run the code along with any parameters needed
     ```
-
-## Submission
-
-Submit your assignment via Teams as a zip file named `20180000001_X_Z.zip`. Ensure timely submission, as late submissions will not be accepted.
-
-## Additional Guidelines
-
-- Adhere to style guidelines.
-- Do not modify provided function prototypes.
-- Develop the program on Ubuntu using the GCC compiler.
-- Ensure your program works as expected in all cases.
-
-## Support
-
-For any questions or clarifications, please use the Teams forum dedicated to this assignment.
