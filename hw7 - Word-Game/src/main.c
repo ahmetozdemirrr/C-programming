@@ -3,7 +3,7 @@
 #include<time.h>
 #include<string.h>
 
-void randomCharacter(char table[15][15]) //Tabloyu random harflerle dolduracak fonksipath.
+void randomCharacter(char table[15][15]) //Tabloyu random harflerle dolduracak fonksiyon.
 {
     for (int i = 0; i < 15; ++i)
     {
@@ -14,7 +14,7 @@ void randomCharacter(char table[15][15]) //Tabloyu random harflerle dolduracak f
     }
 }
 
-void takeWord(char words[7][6]) //Dosyadan kelime okuyan fonksipath.
+void takeWord(char words[7][6]) //Dosyadan kelime okuyan fonksiyon.
 {
     int flag=1;
     int randomNumber=0; //Dosyadan okunacak kelimenin satır bilgisini tutacak değişken.
@@ -54,7 +54,7 @@ void takeWord(char words[7][6]) //Dosyadan kelime okuyan fonksipath.
     fclose(file); //Dosyayı kapatıyoruz.
 }
 
-void printTable(char table[15][15]) //Oyunun tablosunu terminale basan fonksipath.
+void printTable(char table[15][15]) //Oyunun tablosunu terminale basan fonksiyon.
 {
     for (int k = 0; k < 15; ++k)
     {
@@ -328,7 +328,7 @@ int testFunction(int y, int x, char answer[6],char table[15][15])
     return 0;
 }
 
-void putWord(int controlArray[15][15],char words[7][6],char table[15][15]) //Kelimelerin yönü ve indislerinin belirlendiği fonksipath.
+void putWord(int controlArray[15][15],char words[7][6],char table[15][15]) //Kelimelerin yönü ve indislerinin belirlendiği fonksiyon.
 {
     /*
        Kelimelerin Doğrultuları:
@@ -636,9 +636,9 @@ int main(int argc, char const *argv[])
 
     printf("\n");
     
-    takeWord(words);                   //Kelimelerin alınacağı fonksipathu çağırıyoruz.
-    randomCharacter(table);            //Kelimelerin random karakterlerle doldurulacağı fonksipathu çağırıyoruz.
-    putWord(controlArray,words,table); //Kelimelerin yerlerinin belirlendiği fonksipathu çağırıyoruz.
+    takeWord(words);                   //Kelimelerin alınacağı fonksiyonu çağırıyoruz.
+    randomCharacter(table);            //Kelimelerin random karakterlerle doldurulacağı fonksiyonu çağırıyoruz.
+    putWord(controlArray,words,table); //Kelimelerin yerlerinin belirlendiği fonksiyonu çağırıyoruz.
     
     printf("\n");
 
